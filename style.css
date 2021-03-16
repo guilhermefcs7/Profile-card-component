@@ -8,7 +8,7 @@
 body{
 	height: 100vh;
 	background-color: #19a1ad;
-	background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+	background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
 	background-repeat: no-repeat;
 	background-position: bottom 70vh right 50vw, top 100vh left 50vw;
 
@@ -21,14 +21,14 @@ body{
 	border-radius: 15px;
 	margin: auto;
 	margin-top: 50%;
-	background-image: url(images/bg-pattern-card.svg);
+	background-image: url(bg-pattern-card.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	
 }
 
 .profile-pic{
-	background-image: url(images/image-victor.jpg);
+	background-image: url(image-victor.jpg);
 	width: 95px;
 	height: 95px;
 	border-radius: 50%;

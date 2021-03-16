@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Kumbh Sans", sans-serif;
+}
+
+
+body{
+	height: 100vh;
+	background-color: #19a1ad;
+	background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+	background-repeat: no-repeat;
+	background-position: bottom 70vh right 50vw, top 100vh left 50vw;
+
+}
+
+.box{
+	width: 350px;
+	height: 350px;
+	background: #fff;
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 50%;
+	background-image: url(../images/bg-pattern-card.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+}
+
+.profile-pic{
+	background-image: url(../images/image-victor.jpg);
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	display: inline-flex;
+	margin-left: 125px;
+	margin-top: 100px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.personal-info{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 12px; 
+}
+
+.numbers{
+
+	margin-top: 30px;
+}
+
+hr{
+	margin-top: 20px;
+	opacity: 30%;
+}
+
+.personal-info span{
+	color: #7d7d87;
+}
+
+.numbers {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+h3{
+	color: #33334d
+}
+.numbers span{
+ font-size: 10px;
+ color: #939498
+}
